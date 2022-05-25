@@ -7,3 +7,34 @@
     --small-text: 14px;
     --normal-subtitle: 29px;
 }
+
+
+.progress-line-box {
+    width: fit-content;
+}
+
+.progress-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    color: var(--white-text);
+}
+
+.progress-description>.language {
+    font-size: var(--normal-subtitle);
+    line-height: 44px;
+}
+
+.progress-description>.language-value {
+    font-size: var(--small-text);
+    line-height: 21px;
+}
+
+.progress-line {
+    height: 24.3px;
+    border-radius: 50px;
+    background: var(--gradient-bg-color);
+    width: 89.684px;
+}
