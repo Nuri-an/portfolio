@@ -1,0 +1,9 @@
+:root {
+    /* Não é possível usar as vars por causa do contexto, estamos em outra DOM */
+    --gradient-bg-color: linear-gradient(180deg, #15B9B9 0%, #3C1DFF 100%);
+
+    --white-text: #fff;
+
+    --small-text: 14px;
+    --normal-subtitle: 29px;
+}
